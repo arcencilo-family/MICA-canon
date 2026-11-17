@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or adapt these documents, please cite the repository and the exact release."
+title: "MICA canon"
+type: dataset
+authors:
+  - given-names: Frank
+    family-names: Böhm
+version: "0.1.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/arcencilo-family/mica-canon"
+date-released: "2026-11-16"
+abstract: >-
+  MICA is an approach to reading what an AI agent does. Its instruments are gates:
+  each tests one property and returns a verdict. A reader may alarm, stay silent, or
+  say that it cannot assess, and that third answer is treated as a result, not a
+  failure. Under the gates sits a health substrate that sets how far any verdict may
+  be trusted. Around them stand human roles, doctor and arbiter, where escalation ends.
+
+  This canon is the design behind those instruments: 50 chapters on the substrate, the
+  gates, the roles and the principles that hold them together. Each claim carries a
+  tag saying whether it is load-bearing, grounded in observed runs, speculative, or
+  still owed.
+
+  The canon states the intended design. What runs today is shown by two separate code
+  repositories, MICA machine and MICA bridge, published as an alpha with their known
+  limits. Where canon and code differ, the code is what runs. The work is offered for
+  others to read, test and develop; it is not a finished or certified system.
+keywords:
+  - artificial intelligence
+  - AI safety
+  - agents
+  - monitoring
